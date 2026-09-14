@@ -1,0 +1,192 @@
+:root {
+  --bg: #14161a;
+  --bg-elevated: #1a1d22;
+  --bg-panel: #1f2329;
+  --bg-panel-hover: #262b32;
+  --border: #2b3037;
+  --border-strong: #3a4049;
+  --text-primary: #ece8df;
+  --text-secondary: #a6abb3;
+  --text-muted: #6d7280;
+
+  --gold: #c99a4b;
+  --gold-dim: #8a6b36;
+  --gold-wash: rgba(201, 154, 75, 0.12);
+
+  --rust: #c1544a;
+  --rust-wash: rgba(193, 84, 74, 0.14);
+
+  --teal: #4f9c90;
+  --teal-wash: rgba(79, 156, 144, 0.14);
+
+  --slate: #6f8fa8;
+  --slate-wash: rgba(111, 143, 168, 0.12);
+
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 14px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text-primary);
+  font-family: var(--font-display);
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+}
+
+input, select, textarea {
+  font-family: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+::selection {
+  background: var(--gold-wash);
+  color: var(--text-primary);
+}
+
+/* Focus visibility */
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+.mono {
+  font-family: var(--font-mono);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 9px;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  letter-spacing: 0.02em;
+  border: 1px solid transparent;
+  white-space: nowrap;
+}
+
+.badge-gold {
+  background: var(--gold-wash);
+  color: var(--gold);
+  border-color: rgba(201, 154, 75, 0.35);
+}
+
+.badge-teal {
+  background: var(--teal-wash);
+  color: var(--teal);
+  border-color: rgba(79, 156, 144, 0.35);
+}
+
+.badge-rust {
+  background: var(--rust-wash);
+  color: var(--rust);
+  border-color: rgba(193, 84, 74, 0.35);
+}
+
+.badge-slate {
+  background: var(--slate-wash);
+  color: var(--slate);
+  border-color: rgba(111, 143, 168, 0.35);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Shared form field styles, used across Login / Add Record / Search Record */
+.field {
+  margin-bottom: 16px;
+}
+
+.field label {
+  display: block;
+  font-size: 12.5px;
+  color: var(--text-secondary);
+  margin-bottom: 7px;
+}
+
+.field select,
+.field input {
+  width: 100%;
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+  color: var(--text-primary);
+  font-size: 14px;
+}
+
+.field select:hover,
+.field input:hover {
+  border-color: var(--border-strong);
+}
+
+.field select:focus,
+.field input:focus {
+  border-color: var(--gold);
+}
+
+.field-hint {
+  margin-top: 6px;
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  color: var(--text-muted);
+}
+
+.field-hint strong {
+  color: var(--gold);
+  font-weight: 500;
+}
+
+.error-banner {
+  background: var(--rust-wash);
+  border: 1px solid rgba(193, 84, 74, 0.35);
+  color: var(--rust);
+  font-size: 13px;
+  padding: 9px 12px;
+  border-radius: var(--radius-sm);
+  margin-bottom: 16px;
+}
+
+.btn-primary {
+  background: var(--gold);
+  color: #1a1508;
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 11px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: #d6a758;
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "station_id": "PS-001",
+    "name": "MG Road Police Station",
+    "jurisdiction_area": "MG Road, Ernakulam City",
+    "officer_in_charge": "Priya Nair (Inspector)",
+    "assigned_officers": [
+      "OFF-002",
+      "OFF-004",
+      "OFF-007",
+      "OFF-010"
+    ]
+  },
+  {
+    "station_id": "PS-002",
+    "name": "Central Police Station",
+    "jurisdiction_area": "Central Kochi",
+    "officer_in_charge": "Thomas Varghese (Inspector)",
+    "assigned_officers": [
+      "OFF-003",
+      "OFF-005",
+      "OFF-008",
+      "OFF-011"
+    ]
+  },
+  {
+    "station_id": "PS-003",
+    "name": "Coastal Police Station",
+    "jurisdiction_area": "Fort Kochi Coastal Belt",
+    "officer_in_charge": "Arjun Pillai (Sub-Inspector, acting)",
+    "assigned_officers": [
+      "OFF-006",
+      "OFF-009",
+      "OFF-012"
+    ]
+  },
+  {
+    "station_id": "PS-004",
+    "name": "Lulu Junction Police Station",
+    "jurisdiction_area": "Lulu Junction & Edappally Flyover, Ernakulam",
+    "officer_in_charge": "Geeta Menon (Inspector)",
+    "assigned_officers": [
+      "OFF-013",
+      "OFF-014",
+      "OFF-015"
+    ]
+  },
+  {
+    "station_id": "PS-005",
+    "name": "Highway Patrol Outpost",
+    "jurisdiction_area": "NH-66 Bypass, Ernakulam Rural",
+    "officer_in_charge": "Vinod Chandran (Sub-Inspector, acting)",
+    "assigned_officers": [
+      "OFF-016",
+      "OFF-017"
+    ]
+  }
+]

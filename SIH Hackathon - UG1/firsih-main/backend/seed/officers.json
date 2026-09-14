@@ -1,0 +1,154 @@
+[
+  {
+    "officer_id": "OFF-001",
+    "name": "Anil Kumar",
+    "rank": "Superintendent of Police (SP)",
+    "access_level": 5,
+    "station": "District HQ",
+    "description": "Level 5 \u2014 full access to every case across all stations, approves all escalated access requests district-wide."
+  },
+  {
+    "officer_id": "OFF-002",
+    "name": "Priya Nair",
+    "rank": "Inspector",
+    "access_level": 4,
+    "station": "MG Road Police Station",
+    "description": "Level 4 \u2014 oversees all cases registered at MG Road PS, approves access requests from officers at her station."
+  },
+  {
+    "officer_id": "OFF-003",
+    "name": "Thomas Varghese",
+    "rank": "Inspector",
+    "access_level": 4,
+    "station": "Central Police Station",
+    "description": "Level 4 \u2014 oversees all cases registered at Central PS."
+  },
+  {
+    "officer_id": "OFF-004",
+    "name": "Rahul Menon",
+    "rank": "Sub-Inspector",
+    "access_level": 3,
+    "station": "MG Road Police Station",
+    "description": "Level 3 \u2014 investigating officer, full access to cases assigned to him."
+  },
+  {
+    "officer_id": "OFF-005",
+    "name": "Fathima Beevi",
+    "rank": "Sub-Inspector",
+    "access_level": 3,
+    "station": "Central Police Station",
+    "description": "Level 3 \u2014 investigating officer, full access to cases assigned to her."
+  },
+  {
+    "officer_id": "OFF-006",
+    "name": "Arjun Pillai",
+    "rank": "Sub-Inspector",
+    "access_level": 3,
+    "station": "Coastal Police Station",
+    "description": "Level 3 \u2014 investigating officer, full access to cases assigned to him."
+  },
+  {
+    "officer_id": "OFF-007",
+    "name": "Suresh Babu",
+    "rank": "Head Constable",
+    "access_level": 2,
+    "station": "MG Road Police Station",
+    "description": "Level 2 \u2014 assists on assigned cases, limited access to case details, cannot view original evidence without approval."
+  },
+  {
+    "officer_id": "OFF-008",
+    "name": "Deepa Rajan",
+    "rank": "Head Constable",
+    "access_level": 2,
+    "station": "Central Police Station",
+    "description": "Level 2 \u2014 assists on assigned cases, limited access."
+  },
+  {
+    "officer_id": "OFF-009",
+    "name": "Manoj Kumar",
+    "rank": "Head Constable",
+    "access_level": 2,
+    "station": "Coastal Police Station",
+    "description": "Level 2 \u2014 assists on assigned cases, limited access."
+  },
+  {
+    "officer_id": "OFF-010",
+    "name": "Vishnu Prasad",
+    "rank": "Constable",
+    "access_level": 1,
+    "station": "MG Road Police Station",
+    "description": "Level 1 \u2014 lowest access, can view only case existence + basic metadata, must request approval for almost everything."
+  },
+  {
+    "officer_id": "OFF-011",
+    "name": "Anjali S",
+    "rank": "Constable",
+    "access_level": 1,
+    "station": "Central Police Station",
+    "description": "Level 1 \u2014 lowest access."
+  },
+  {
+    "officer_id": "OFF-012",
+    "name": "Biju Thomas",
+    "rank": "Constable",
+    "access_level": 1,
+    "station": "Coastal Police Station",
+    "description": "Level 1 \u2014 lowest access."
+  },
+  {
+    "officer_id": "EXT-001",
+    "name": "Justice Meera Krishnan",
+    "rank": "District Judge",
+    "access_level": "external \u2014 assigned per case",
+    "station": "District Court",
+    "description": "Not part of the 5-level police hierarchy. Directly assigned to specific cases (2024-CR-103, 2024-CR-104) and can access them without submitting a request."
+  },
+  {
+    "officer_id": "EXT-002",
+    "name": "Dr. Sanjay Iyer",
+    "rank": "Forensic Expert",
+    "access_level": "external \u2014 assigned per case",
+    "station": "State Forensic Lab",
+    "description": "Not part of the 5-level police hierarchy. Directly assigned to specific cases (2024-CR-101, 2024-CR-104, 2024-CR-105) requiring forensic analysis."
+  },
+  {
+    "officer_id": "OFF-013",
+    "name": "Geeta Menon",
+    "rank": "Inspector",
+    "access_level": 4,
+    "station": "Lulu Junction Police Station",
+    "description": "Level 4 \u2014 oversees all cases registered at Lulu Junction PS."
+  },
+  {
+    "officer_id": "OFF-014",
+    "name": "Karthik Raj",
+    "rank": "Sub-Inspector",
+    "access_level": 3,
+    "station": "Lulu Junction Police Station",
+    "description": "Level 3 \u2014 investigating officer, full access to cases assigned to him."
+  },
+  {
+    "officer_id": "OFF-015",
+    "name": "Sreelakshmi Nair",
+    "rank": "Constable",
+    "access_level": 2,
+    "station": "Lulu Junction Police Station",
+    "description": "Level 2 \u2014 assisting officer, access limited to assigned cases."
+  },
+  {
+    "officer_id": "OFF-016",
+    "name": "Vinod Chandran",
+    "rank": "Sub-Inspector",
+    "access_level": 3,
+    "station": "Highway Patrol Outpost",
+    "description": "Level 3 \u2014 investigating officer, full access to cases assigned to him."
+  },
+  {
+    "officer_id": "OFF-017",
+    "name": "Ajmal Hassan",
+    "rank": "Head Constable",
+    "access_level": 2,
+    "station": "Highway Patrol Outpost",
+    "description": "Level 2 \u2014 assisting officer, access limited to assigned cases."
+  }
+]
