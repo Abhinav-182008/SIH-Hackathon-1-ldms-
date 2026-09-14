@@ -1,0 +1,15 @@
+.document-information { width:100%; padding:16px 0; text-align:left; }
+.document-tools { display:flex; flex-wrap:wrap; gap:10px; margin:12px 0; }
+.document-information p { line-height:1.6; }
+.document-information details { margin:10px 0; }
+.document-information summary { cursor:pointer; }
+.source-hash { display:block; overflow-wrap:anywhere; padding:10px 0; font-size:12px; }
+.extraction-record { border:1px solid var(--border); border-radius:12px; margin-top:18px; padding:18px; background:var(--bg-elevated); }
+.extraction-record h4 { font-size:17px; margin:0 0 8px; }
+.extraction-table { width:100%; border-collapse:collapse; margin:16px 0; table-layout:fixed; }
+.extraction-table th,.extraction-table td { padding:12px; border-bottom:1px solid var(--border); text-align:left; vertical-align:top; overflow-wrap:anywhere; white-space:pre-wrap; }
+.extraction-table th { width:34%; font-weight:600; }
+.extraction-table thead { background:var(--bg-panel); }
+.extraction-table textarea { width:100%; box-sizing:border-box; min-height:65px; resize:vertical; padding:8px; color:inherit; background:var(--bg-elevated); border:1px solid var(--border); border-radius:6px; font:inherit; }
+.stored-document { border-bottom:1px solid var(--border); width:100%; }
+@media(max-width:600px) { .extraction-record {padding:10px;} .extraction-table th,.extraction-table td {padding:8px;} .document-tools .action-button {width:100%; justify-content:center;} }
